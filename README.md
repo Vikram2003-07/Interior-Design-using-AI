@@ -26,8 +26,6 @@ Whether you're an interior designer, homeowner, or design enthusiast, this appli
 - **Backend**: Node.js, Express.js
 - **Database**: PostgreSQL, Supabase
 - **Authentication**: Clerk
-- **AI/ML**: Advanced AI models for image processing and design generation
-- **Deployment**: Vercel, Docker
 
 ## 📦 Installation
 
@@ -129,70 +127,11 @@ AI_API_ENDPOINT=https://api.ai-service.com
    - Sign in with Clerk authentication
    - Create a test project to verify all systems are working
 
-## 🚀 Deployment
+## 🔐 Security
 
-### Deploy to Vercel (Recommended)
-
-1. **Push your code to GitHub**
-   ```bash
-   git push origin main
-   ```
-
-2. **Connect to Vercel**
-   - Go to [Vercel Dashboard](https://vercel.com)
-   - Click "New Project" and select your repository
-   - Vercel will auto-detect the Next.js project
-
-3. **Configure Environment Variables**
-   - In Vercel project settings, go to "Environment Variables"
-   - Add all variables from your `.env.local` file:
-     - PostgreSQL/Supabase connection strings
-     - Clerk authentication keys
-     - API keys and endpoints
-   - Make sure to set them for production environment
-
-4. **Configure Database**
-   - Point to your production PostgreSQL instance or Supabase project
-   - Ensure the database connection string is correct for production
-   - Run migrations on the production database
-
-5. **Deploy**
-   - Click "Deploy" button
-   - Vercel will build and deploy your application
-   - Update Clerk and Supabase allowed domains to include your Vercel URL
-
-### Deploy with Docker
-
-1. **Build Docker image**
-   ```bash
-   docker build -t interior-design-ai .
-   ```
-
-2. **Run Docker container**
-   ```bash
-   docker run -p 3000:3000 \
-     -e DATABASE_URL="your_production_db_url" \
-     -e NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_key" \
-     -e CLERK_SECRET_KEY="your_secret" \
-     -e NEXT_PUBLIC_SUPABASE_URL="your_supabase_url" \
-     -e NEXT_PUBLIC_SUPABASE_ANON_KEY="your_key" \
-     interior-design-ai
-   ```
-
-3. **Deploy to cloud platform**
-   - Push Docker image to Docker Hub or container registry
-   - Deploy using your preferred hosting platform (AWS, GCP, Azure, etc.)
-
-### Post-Deployment Checklist
-
-- [ ] Verify all environment variables are set correctly
-- [ ] Test user authentication (Clerk login/signup)
-- [ ] Test database connectivity
-- [ ] Verify file uploads and image processing work
-- [ ] Test AI features and design generation
-- [ ] Check responsive design on multiple devices
-- [ ] Monitor error logs and performance metrics
-- [ ] Set up monitoring and alerting for production
+- User data is encrypted in transit and at rest
+- Authentication handled securely by Clerk
+- Database credentials stored as environment variables
 
 ## 📝 Usage
 
@@ -217,29 +156,6 @@ AI_API_ENDPOINT=https://api.ai-service.com
    - Save your designs and projects
    - Export designs for sharing
 
-## 🔧 Development
-
-### Available Scripts
-
-```bash
-# Development server
-npm run dev
-
-# Production build
-npm run build
-
-# Start production server
-npm run start
-
-# Database migrations
-npm run db:migrate
-
-# Linting
-npm run lint
-
-# Testing
-npm run test
-```
 
 ### Project Structure
 
@@ -268,15 +184,6 @@ We welcome contributions! Please follow these steps:
 For support, issues, or questions:
 
 - Open an [issue](https://github.com/Vikram2003-07/Interior-Design-using-AI/issues) on GitHub
-- Contact the development team
-- Check existing documentation and FAQs
-
-## 🔐 Security
-
-- User data is encrypted in transit and at rest
-- Authentication handled securely by Clerk
-- Database credentials stored as environment variables
-- Regular security audits and updates
 
 ---
 
