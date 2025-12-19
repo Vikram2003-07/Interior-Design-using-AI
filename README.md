@@ -102,7 +102,7 @@ AI_API_ENDPOINT=https://api.ai-service.com
    ```
 
 3. **Configure environment variables**
-   - Create `.env.local` file with all required variables (see Environment Variables Setup above)
+   - Look for `.env.local` and file all required variables (see Environment Variables Setup above)
    - Ensure all API keys and credentials are properly set
 
 4. **Set up the database**
