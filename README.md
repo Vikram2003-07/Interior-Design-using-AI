@@ -105,24 +105,13 @@ AI_API_ENDPOINT=https://api.ai-service.com
    - Look for `.env.local` and file all required variables (see Environment Variables Setup above)
    - Ensure all API keys and credentials are properly set
 
-4. **Set up the database**
-   ```bash
-   # Create PostgreSQL database
-   createdb interior_design_db
-   
-   # Or use Supabase dashboard to create the database
-   
-   # Run database migrations
-   npm run db:migrate
-   ```
-
-5. **Start the development server**
+4. **Start the development server**
    ```bash
    npm run dev
    ```
    The application will be available at `http://localhost:3000`
 
-6. **Verify installation**
+5. **Verify installation**
    - Open your browser and navigate to `http://localhost:3000`
    - Sign in with Clerk authentication
    - Create a test project to verify all systems are working
