@@ -40,7 +40,7 @@ Before you begin, ensure you have the following installed:
 
 ### Environment Variables Setup
 
-Create a `.env.local` file in the root directory and configure the following environment variables:
+Look for `.env.local` or create it in root directory and configure the following environment variables:
 
 #### PostgreSQL Configuration
 ```env
