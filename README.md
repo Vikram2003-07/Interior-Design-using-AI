@@ -2,6 +2,8 @@
 
 An intelligent interior design application powered by artificial intelligence, enabling users to visualize and create stunning interior designs with AI-driven recommendations and transformations.
 
+![Project Demo video](https://github.com/user-attachments/assets/868131da-ab79-4c9a-b3db-2fd2d7a57258)
+
 ## 📋 Project Overview
 
 Interior Design using AI is a full-stack web application that leverages artificial intelligence to help users create, visualize, and improve interior designs. The application combines cutting-edge AI models with an intuitive user interface to provide professional-grade design suggestions and room transformations.
