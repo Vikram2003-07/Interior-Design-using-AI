@@ -2,7 +2,7 @@
 
 An intelligent interior design application powered by artificial intelligence, enabling users to visualize and create stunning interior designs with AI-driven recommendations and transformations.
 
-![Project Demo video](https://github.com/user-attachments/assets/868131da-ab79-4c9a-b3db-2fd2d7a57258)
+[Project Demo video](https://github.com/user-attachments/assets/868131da-ab79-4c9a-b3db-2fd2d7a57258)
 
 ## 📋 Project Overview
 
