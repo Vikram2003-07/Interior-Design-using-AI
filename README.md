@@ -1,4 +1,4 @@
-# Interior Design using AI
+# ✨Interior Design using AI
 
 An intelligent interior design application powered by artificial intelligence, enabling users to visualize and create stunning interior designs with AI-driven recommendations and transformations.
 
